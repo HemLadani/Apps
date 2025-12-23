@@ -1,0 +1,23 @@
+{
+  "name": "apps",
+  "version": "1.0.0",
+  "description": "Its an amazing package",
+  "homepage": "https://github.com/HemLadani/Apps#readme",
+  "bugs": {
+    "url": "https://github.com/HemLadani/Apps/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HemLadani/Apps.git"
+  },
+  "license": "ISC",
+  "author": "Hem",
+  "type": "commonjs",
+  "main": "Basics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

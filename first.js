@@ -1,1 +1,5 @@
-console.log("this is the new change by om");
+hem = {
+    om: "bekar",
+    pari:"maha bekar"
+};
+ module.exports = hem; 

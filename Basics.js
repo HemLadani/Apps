@@ -79,4 +79,8 @@ student.role = "Developer";
  //const d = new Date("March 31, 2004 12:00:00" );
  //console.log(d);
 
- console.log("om");
+ //console.log("omhemmm");
+
+ const bhano= require("./first");
+
+ console.log("hello",bhano);
