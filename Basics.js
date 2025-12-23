@@ -76,5 +76,7 @@ student.rollno = 65;
 student.role = "Developer";
  console.log(student);*/
 
- const d = new Date("March 31, 2004 12:00:00" );
- console.log(d);
+ //const d = new Date("March 31, 2004 12:00:00" );
+ //console.log(d);
+
+ console.log("om");
