@@ -6,7 +6,7 @@ npm install express --save     node module
 npm i -g nodemon    global install due to "g"
 nodemon "filename"  to see live changes in file
 npm install --save-dev nodemon    to do dev dependencies
-npm uninstall     to uninstall
+npm uninstall {module/package for ex:- express}    to uninstall
 
 
 to import     const "name" = require("./file name from which it is imported");
