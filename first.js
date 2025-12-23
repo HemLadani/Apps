@@ -1,5 +1,6 @@
 hem = {
-    om: "bekar",
-    pari:"maha bekar"
+    om: "great",
+    pari: "bekar",
 };
- module.exports = hem; 
+
+module.exports = hem;
