@@ -13,6 +13,7 @@
   "license": "ISC",
   "author": "Hem",
   "type": "commonjs",
+  "type": "module",
   "main": "Basics.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -81,6 +81,10 @@ student.role = "Developer";
 
  //console.log("omhemmm");
 
- const bhano= require("./first");
+//  const bhano= require("./first");
 
- console.log("hello",bhano);
+//  console.log("hello",bhano);
+
+export function bhano(){
+    console.log("Pari is very bekar");
+}
