@@ -1,5 +1,7 @@
 function greet(name) {
-    return "Hello, ".concat(name, "!");
+    return `Hello, ${name}!`;
 }
-var message = greet("World");
+const message = greet("World");
 console.log(message);
+export {};
+//# sourceMappingURL=Hello.js.map
