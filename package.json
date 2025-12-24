@@ -12,7 +12,6 @@
   },
   "license": "ISC",
   "author": "Hem",
-  "type": "commonjs",
   "type": "module",
   "main": "Basics.js",
   "scripts": {
@@ -20,5 +19,8 @@
   },
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
   }
 }
