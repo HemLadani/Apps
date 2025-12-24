@@ -15,4 +15,4 @@ to export    module.exports = content to export
 
 node.js docs for a;; module packages details
 
-
+npm install typescript --save-dev         Typescript package
