@@ -1,5 +1,9 @@
-function greet(name) {
-    return "Hello, ".concat(name, "!");
+// function greet(name: string): string {
+//   return `Hello, ${name}!`;
+// }
+// const message: string = greet("World");
+// console.log(message);
+function add(a, b) {
+    return a + b;
 }
-var message = greet("World");
-console.log(message);
+console.log(add(5, 3));
