@@ -166,24 +166,33 @@
 // let pro = new hello(55,"hem",21);
 
 
-abstract class employee{
-    constructor(public name:string,protected id:number){}
-    abstract getsalary():number;
-}
-class fulltimeemployee extends employee{
-    constructor(public annualsalary: number){super("khalistani",65);}
-    getsalary() {
-        return this.annualsalary;
-    }
-}
-class contractor extends employee{
-    constructor(public hourlyRate: number,public hoursWorked: number){super("kalua",65);}
-    getsalary() {
-        return this.hourlyRate * this.hoursWorked;
-    }
-}
-let pro = new fulltimeemployee(656565);
+// abstract class employee{
+//     constructor(public name:string,protected id:number){}
+//     abstract getsalary():number;
+// }
+// class fulltimeemployee extends employee{
+//     constructor(public annualsalary: number){super("khalistani",65);}
+//     getsalary() {
+//         return this.annualsalary;
+//     }
+// }
+// class contractor extends employee{
+//     constructor(public hourlyRate: number,public hoursWorked: number){super("kalua",65);}
+//     getsalary() {
+//         return this.hourlyRate * this.hoursWorked;
+//     }
+// }
+// let pro = new fulltimeemployee(656565);
 
-let noob = new contractor(20,5);
-console.log(`fte salary is:${pro.getsalary()}`);
-    console.log(`ct salary is: ${noob.getsalary()}`);
+// let noob = new contractor(20,5);
+// console.log(`fte salary is:${pro.getsalary()}`);
+//     console.log(`ct salary is: ${noob.getsalary()}`);
+
+let express = require("express");
+const app = express();
+
+app.get("/",function(req,res){
+    res.send("Pari bekar hai");
+});
+
+app.listen(8090);

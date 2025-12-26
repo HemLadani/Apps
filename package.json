@@ -12,13 +12,15 @@
   },
   "license": "ISC",
   "author": "Hem",
-  "type": "module",
+  "type": "commonjs",
   "main": "Basics.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "figlet": "^1.9.4"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
